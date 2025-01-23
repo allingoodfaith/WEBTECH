@@ -1,0 +1,5 @@
+Overall a quick and painless assignment which is nice as I try and get things in line for the game jams this weekend and therefore need to get everthing done faster then normal. This was a nice refresher on js and html which is letting me get my footing with these better. 
+
+I used copliot (ew) to compare against mine and while basically the same the choices were different with alot more different explainations. It did help clarify one part of the homework I was struggling with so ill give it an ounce of credit and nothing more. 
+
+I was able to understand the code fairly well but i think thats helped by it being very simple and basic so I could see mostly whats going on. Personally i wouldn't feel like that work was mine and while my code is far form great or good even, I'm proud that it was me that made it. 
