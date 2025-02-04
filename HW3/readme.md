@@ -1,0 +1,2 @@
+This week felt like a bit of a shock getting into things. I wasn't really prepared and was fairly confused but the course materail. I had to go through everything a couple of times to try and get it. 
+As for the assignment, I think it went well enough. I struggled get the buttons to registar fully and still had a hard time with some of the js logic but I kept everything in the hopes of you being able to look at it. I asked a few class mates for help and they were in simular boats. 

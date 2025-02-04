@@ -1,0 +1,37 @@
+#text
+{
+    background-color: blanchedalmond;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+}
+
+body
+{   
+    background-color: blanchedalmond;
+}
+
+.button
+{
+    border-style: solid;
+    border-color: burlywood;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 10px;
+}
+
+#buttonholder
+{
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+}
+
+#restartHolder
+{
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+}
