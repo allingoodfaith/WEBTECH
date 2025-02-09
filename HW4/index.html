@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="uft-8">
+    <title> Week 4 Homework</title>
+    <meta name="author" content="Grete Tanberg">
+    <meta name=" viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/HW4/styles.css">
+</head>
+
+<body>
+    <h1>I need some opinions on something</h1>
+    <br>
+    <img src="/HW4/imgs/image1.png" id="mainimage">
+
+    <script>
+        function getAnswer1() {
+            var myAnswer = document.getElementById("answer1").value;
+            var myQuestion = document.getElementById("question");
+            if (myAnswer === "Left") {
+                document.getElementById("answer1").style.display = "none";
+                document.getElementById("btnSumbit1").style.display = "none";
+
+                document.getElementById("answer2").style.display = "block";
+                document.getElementById("btnSumbit2").style.display = "block";
+
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+            else if (myAnswer === "Right") {
+                document.getElementById("answer").style.display = "none";
+                document.getElementById("btnSumbit1").style.display = "none";
+
+                document.getElementById("answer3").style.display = "block";
+                document.getElementById("btnSumbit3").style.display = "block";
+
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+            else {
+                myQuestion.innerHTML = "Invalid answer";
+            }
+        }
+
+        function getAnswer2() {
+            var answer = document.getElementById("answer2").value;
+            var myQuestion = document.getElementById("question");
+            if (answer === "Left") {
+                document.getElementById("image").src = "/HW4/imgs/image2.png"
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+            else if (answer === "Right") {
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+        }
+
+        function getAnswer3() {
+            var answer = document.getElementById("answer2").value;
+            var myQuestion = document.getElementById("question");
+            if (answer === "Left") {
+                document.getElementById("image").src = "/HW4/imgs/image3.png"
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+            else if (answer === "Right") {
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+        }
+
+        function getAnswer4() {
+            var answer = document.getElementById("answer2").value;
+            var myQuestion = document.getElementById("question");
+            if (answer === "Left") {
+                document.getElementById("image").src = "/HW4/imgs/image4.png"
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+            else if (answer === "Righto") {
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+        }
+
+        function getAnswer5() {
+            var answer = document.getElementById("answer2").value;
+            var myQuestion = document.getElementById("question");
+            if (answer === "Left") {
+                document.getElementById("image").src = "/HW4/imgs/image5.png"
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+            else if (answer === "Right") {
+                myQuestion.innerHTML = "Oh neat thanks. Next!";
+            }
+        }
+    </script>
+
+    <div id="question">
+        What do you like?
+        <br>
+        Left or Right?
+        <br>
+    </div>
+
+    <br>
+    <input type="text" size="30" id="answer1" value="Left or Right?">
+    <button id="btnSumbit1" onclick="getAnswer1();">Click to continue</button>
+
+    <input type="text" size="30" id="answer2" value="Left or Right?" style="display:none">
+    <button id="btnSumbit2" onclick="getAnswer2();" style="display: none;"> Click to continue</button>
+
+    <input type="text" size="30" id="answer3" value="Left or Right?" style="display:none">
+    <button id="btnSumbit3" onclick="getAnswer3();" style="display: none;"> Click to continue</button>
+
+    <input type="text" size="30" id="answer4" value="Left or Right?" style="display:none">
+    <button id="btnSumbit4" onclick="getAnswer4();" style="display: none;"> Click to continue</button>
+
+    <input type="text" size="30" id="answer5" value="Left or Right?" style="display:none">
+    <button id="btnSumbit5" onclick="getAnswer5();" style="display: none;"> Click to continue</button>
+
+    <!--<script src="/HW4/script.js"></script>-->
+</body>
+
+</html>

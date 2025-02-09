@@ -1,0 +1,39 @@
+body
+{
+    background-color: blanchedalmond;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+#story
+{
+    font-size: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+button
+{
+    border-style: solid;
+    border-color: burlywood;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+button:hover
+{
+    border-color: burlywood;
+}
