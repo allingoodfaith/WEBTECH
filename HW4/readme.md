@@ -1,0 +1,2 @@
+I've taken to using some of my fellow student's help when I hit a road block during this assignment for which I am very thankful for. There are still points I dont fully understand why my code falis to function so I might be popping in to get some clarification on it. 
+I think i understand the logic behind the code but lack the skills to put it out into the world fully. 
