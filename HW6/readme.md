@@ -1,0 +1,1 @@
+the ai was pretty good at this assignment like most of them so far. I think the biggest thing it that is al basic code that has been taught for many years so it has a lot of informaiton to pull from.
