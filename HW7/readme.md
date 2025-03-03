@@ -1,0 +1,1 @@
+Honestly this week felt pretty good when it came to course work. I understood alot of it and when I used the bot, it clarified the few parts i was confused on. Still feels a little gross to work with it. 
