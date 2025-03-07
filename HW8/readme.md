@@ -1,0 +1,1 @@
+I struggled to get the square to move properly and even when using the bot I wasn't very successful in getting it to work. Im finding that I prefer makeing the site look nice rather then the coding of them. I struggle with js and scripts and just feel frustrated when it takes me so long to get some up only for it not to even work. 

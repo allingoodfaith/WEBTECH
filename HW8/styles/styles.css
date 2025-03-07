@@ -1,0 +1,26 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+#third
+{
+    background-color: bisque;
+    color: black;
+}
+
+.stuff
+{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#square
+{
+    width: 50px;
+    height: 50px;
+    background-color: burlywood;
+    position: absolute;
+    left: 0;
+    top: 500;
+}
