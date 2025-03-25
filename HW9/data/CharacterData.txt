@@ -1,0 +1,6 @@
+<character>
+    <race>Half-Orc</race>
+    <class>Warlock</class>
+    <subclass>Pack of Fathoms</subclass>
+    <backgound>Priate</backgound>
+</character>

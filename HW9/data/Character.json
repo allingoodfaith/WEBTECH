@@ -1,0 +1,13 @@
+{
+    "race": "Half-Orc",
+    "class":
+    {
+        "class1": "Paladin",
+        "class2": "Warlock"
+    },
+    "subclass":
+    [
+        "Oath of Ancients",
+        "Pack of Fathoms"
+    ]
+}
