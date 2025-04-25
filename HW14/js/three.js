@@ -4,40 +4,14 @@ var camera = new THREE.PerspectiveCamera(75,window.innerWidth / window.innerHeig
 var cube, cube2;
 var modelObject;
 
-
-/*var renderer = new THREE.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
-
-var geometry = new THREE.BoxGeometry();
-var material = new THREE.MeshBasicMaterial({
-    color: 0x00ff00
-});
-var cube = new THREE.Mesh(geometry, material);
-scene.add(cube);
-
-camera.position.z = 30;
-
-function animate() {
-    requestAnimationFrame( animate );
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
-    renderer.render( scene, camera );
-}
-animate();
-
-*/
-
 function createBox()
 {
-    var renderer = new THREE.WebGLRenderer();
+var renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 var geometry = new THREE.BoxGeometry();
-var material = new THREE.MeshBasicMaterial({
-    color: 0x00ff00
-});
+var material = new THREE.MeshBasicMaterial({color: 0x00ff00});
 var cube = new THREE.Mesh(geometry, material);
 cube.position.set(24,24,5)
 scene.add(cube);
@@ -79,7 +53,7 @@ animate2();
 
 function animate2() 
 {
-    requestAnimationFrame(animate);
+    requestAnimationFrame(animate2);
     cube.rotation.x += 0.06;
     cube.rotation.y += 0.06;
     renderer.render(scene, camera);
@@ -91,7 +65,7 @@ function animate2()
 function getScene()
 {
     var scene = new THREE.Scene();
-    scene.background = new THREE.color(0xaaaaaa);
+    //scene.background = new THREE.color(0xaaaaaa);
     return scene;
 }
 
@@ -119,7 +93,7 @@ function getRenderer()
 {
     var renderer = new THREE.WebGLRenderer({antialias: true});
     renderer.setPixelRatio(window.devicePixelRatio);
-    enderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
     return renderer;
 }
@@ -159,18 +133,44 @@ function render()
     controls.update();
 };
   
-var scene = getScene();
+//var scene = getScene();
 var camera = getCamera();
 var light = getLight(scene);
 var renderer = getRenderer();
 var controls = getControls(camera, renderer);
 var game1 = createBox();
+var game1 = createBox2();
   
   
 loadModel()
   
 render();
 
+
+
+
+/*var renderer = new THREE.WebGLRenderer();
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.appendChild(renderer.domElement);
+
+var geometry = new THREE.BoxGeometry();
+var material = new THREE.MeshBasicMaterial({
+    color: 0x00ff00
+});
+var cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
+
+camera.position.z = 30;
+
+function animate() {
+    requestAnimationFrame( animate );
+    cube.rotation.x += 0.01;
+    cube.rotation.y += 0.01;
+    renderer.render( scene, camera );
+}
+animate();
+
+*/
 
 
 //line
